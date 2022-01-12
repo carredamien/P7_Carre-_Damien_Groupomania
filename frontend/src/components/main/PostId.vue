@@ -24,7 +24,7 @@
               <h6 class="border-bottom pb-2 mb-0">Les commentaires : </h6>
               <div v-for="(getComment, index) in getComments" :key="index" class="comment--message d-flex flex-column text-muted pt-3">
                 <div class=" d-flex flex-row col-6 ">
-                  <img v-if="getComment.avatar" class="avatar mt-1 mx-1 rounded" :src="`${getComment.avatar}`">
+                  <img v-if="getComment.avatar" name="avatar" class="avatar mt-1 mx-1 rounded" :src="`${getComment.avatar}`">
                   <img v-else class="avatar mx-1" src="../../assets/images/user_gray.png">
                   <div class=" d-flex flex-row ">
                   <p class="comment--created mb-1 mb-md-0 mt-md-1">le: {{createdDate(getComment.created)}} par</p>
@@ -166,8 +166,8 @@ export default {
         formData.append("message", message);
         formData.append("author", author);
         formData.append("PostId", this.id);
-        formData.append("image", avatar);
-
+        formData.append("avatar", avatar);
+      
       if(message){
         axios.post('http://localhost:3005/api/comment', formData)
           .then((res)=>{
