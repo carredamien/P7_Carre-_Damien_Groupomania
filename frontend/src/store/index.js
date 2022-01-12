@@ -13,17 +13,7 @@ export default createStore({
     loadPosts(state, posts){
       state.posts = posts
     },
-    // isAdmin(state, isAdmin){
-  
 
-      
-    //   console.log(jwtIsAdmin);
-    // }
-
-    // createAccount(state, userInfos){
-    //   state.userInfos = userInfos
-    // },
-    
   },
   actions:{
     loadPosts:({ commit }) =>{

@@ -12,10 +12,10 @@ Modifier la chaine secrète du token si besoin.
 Ouvrir le terminal et installer npm avec la commande suivante: npm -install
 puis: npm run start - le server démarre et affiche "connexion à MongoDB  réussie !"
 
-# Darrage du frontend 
+# Démarrage du frontend 
 
 A l'intérieur du dossier frontend:
 Duppliquer le fichier .env.example à la racine et le renommer en .env
 
 Ouvrir le terminal et installer npm avec la commande suivante: npm -install
-puis: npm run serve - le liveserver démarre et vous invite à cliquer sur un lien: -local: http://localhost:8080/
+puis: npm run serve - le live server démarre et vous invite à cliquer sur un lien: -local: http://localhost:8080/

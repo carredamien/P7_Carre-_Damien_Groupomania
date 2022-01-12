@@ -162,14 +162,16 @@ export default {
 
       const formData = new FormData();
 
-      formData.append("UserId", UserId);
-      formData.append("message", message);
-      formData.append("author", author);
-      formData.append("PostId", this.id);
-      formData.append("image", avatar);
+        formData.append("UserId", UserId);
+        formData.append("message", message);
+        formData.append("author", author);
+        formData.append("PostId", this.id);
+        formData.append("image", avatar);
+
       if(message){
         axios.post('http://localhost:3005/api/comment', formData)
-          .then(()=>{
+          .then((res)=>{
+            console.log(res);
             this.$router.push(`/articles`)
           })
           .catch((error)=>{ error })

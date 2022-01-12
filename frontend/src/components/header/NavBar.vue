@@ -13,7 +13,7 @@
           <router-link  v-else :to="{ name: 'Disconnected'}" class="nav-link text-center " >Déconnexion &nbsp;  </router-link>
         </li>
         <li class="nav-item">
-          <router-link v-if="token" :to="{ name: 'Settings'}" class="nav-link text-center" aria-current="réglages" > <i class="settings--icon bi bi-gear-fill "></i>  </router-link>
+          <router-link v-if="token" :to="{ name: 'Settings'}" class="nav-link text-center" aria-current="réglages" > <i class="settings--icon bi bi-gear-fill "></i> </router-link>
         </li>
 
       </ul>
