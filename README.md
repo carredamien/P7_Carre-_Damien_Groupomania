@@ -1,3 +1,7 @@
+# Groupomania
+
+![screenshot](./frontend/src/assets/images/screenshot.JPG)
+
 # Démarrage du backend
 
 A l'intérieur du dossier backend:
