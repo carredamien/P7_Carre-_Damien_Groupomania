@@ -26,6 +26,17 @@
       </div>
       <div v-else class="col-md-9 m-auto mt-5 mb-5">
         <h3 class="card-title text-center">Pour voir les news, il faut se connecter 😉</h3>
+        <img  class="img-message mt-5" src="../assets/images/image-default.png" >
+         
+            <div class="card-body">
+              <h2 class="card-title"></h2>
+              <p class="text-secondary mb-1">
+                Publié par <span class="fw-bold capitalize">tes collègues</span> 
+              </p>
+              <p class="card-text">
+             Tu veux en voir plus, alors rejoins-nous... 
+              </p>
+            </div>
       </div>
     </div>
   </main>

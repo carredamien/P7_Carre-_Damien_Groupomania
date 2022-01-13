@@ -17,7 +17,7 @@
                <p v-if="errors.password" class="text-danger fw-md-bold error--name error-b"> {{ errors.password }} </p>
               </div>
               <div class="form-group mb-2 d-grid gap-2 py-2 mt-4 text-center ">
-                <button @click.prevent="checkForm" class="btn btn-danger fs-5 fw-bold" type="button">Connexion</button>
+                <button  @click.prevent="checkForm" class="btn btn-danger fs-5 fw-bold" type="button">Connexion</button>
               </div>
               <p v-if="errors.connect" class="text-danger fw-bold fs-5 error--name error-b"> {{ errors.connect }}</p>
               <div class="form-group d-grid gap-2  mt-4 text-center ">
