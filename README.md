@@ -24,7 +24,7 @@ Dans le fichier .env, remplir les variables d'environnement qui permmettra la co
 Modifier la chaine secrète du token si besoin.
 
 Ouvrir le terminal et installer npm avec la commande suivante: npm -install
-puis: npm run start - le server démarre et affiche "connexion à MongoDB  réussie !"
+puis: npm run start - le server démarre et affiche "connexion réussie !"
 
 # Démarrage du frontend 
 
