@@ -18,10 +18,11 @@ Pour le front, j'ai choisi de faire l'intégration avec bootstrap 5 pour plusieu
 
 # Démarrage du backend
 
+Créer une base de données
+
 A l'intérieur du dossier backend:
 Duppliquer le fichier .env.example à la racine et le renommer en .env
 Dans le fichier .env, remplir les variables d'environnement qui permmettra la connexion à la bdd.
-Modifier la chaine secrète du token si besoin.
 
 Ouvrir le terminal et installer npm avec la commande suivante: npm -install
 puis: npm run start - le server démarre et affiche "connexion réussie !"
